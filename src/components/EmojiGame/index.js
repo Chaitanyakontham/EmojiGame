@@ -103,7 +103,7 @@ class EmojiGame extends Component {
           topScore={topScore}
         />
         <div className="emoji-game-body">
-          {isGameInProgress ? this.renderEmojisList() : renderScoreCard()}
+          {isGameInProgress ? this.renderEmojisList() : this.renderScoreCard()}
         </div>
       </div>
     )
